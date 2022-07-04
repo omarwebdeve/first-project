@@ -1,0 +1,71 @@
+/* how to restrict main branch */
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+h1{
+    font-size:50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    text-align:justify;
+    line-height:22px;
+}
+section{
+    padding-bottom: 120px;
+}
+.first_section{
+    background-image:url("../images/top-banner.png");
+    background-repeat:no-repeat;
+}
+.meddle_section{
+    /* background-image:; */
+    background-image:url("../images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position:right;
+}
+.first_section,.meddle_section, .box{
+    display:flex;
+}
+.orange{
+    color:orange;
+}
+.w-50{
+    width:40%;
+    padding-left:6%;
+}
+.w-50 img{
+    width:100%;
+}
+.experiences{
+    background-image:url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+[target="_blank"]{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 33px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.right-div, .left-div{
+    margin: 0 50px;
+    width:570px;
+    box-shadow:5px 7px 40px grey;
+    padding:50px;
+}
+.right-div{
+    border-left: solid 7px blue;
+}
+.left-div{
+    border-left: solid 7px tomato;
+}
+footer{
+    text-align: center;
+}
